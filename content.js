@@ -68,7 +68,7 @@ window.SITE = {
   {
     title: "Physiotherapy Clinic — Treatment Ad",
     category: "Ads & Commercials",
-    thumbnail: "assets/covers/physiotherapy-cover.jpg",
+    thumbnail: "assets/covers/physio-clinic-ad.jpg",
     videoUrl: "https://drive.google.com/file/d/1RvdHiKu_8ZSJDEP-bMFugEyjjZBhZSOG/view?usp=drive_link",
     videoType: "drive",
     orientation: "vertical",
@@ -77,7 +77,7 @@ window.SITE = {
   {
     title: "Dental Clinic — Hollywood Smile Ad",
     category: "Ads & Commercials",
-    thumbnail: "assets/covers/dental-cover.jpg",
+    thumbnail: "assets/covers/dental-clinic-ad.jpg",
     videoUrl: "https://drive.google.com/file/d/1ieW2d5NJQAN2PAx-4wO65RFylMB0YwzV/view?usp=sharing",
     videoType: "drive",
     orientation: "vertical",
@@ -86,7 +86,7 @@ window.SITE = {
   {
     title: "Marketing Agency — Customer Acquisition Cost",
     category: "Reels & Short-Form",
-    thumbnail: "assets/covers/customer-acquisition-cover.jpg",
+    thumbnail: "assets/covers/atriq-acquisition-cost.jpg",
     videoUrl: "https://www.instagram.com/p/DfABbsggfte/",
     videoType: "instagram",
     orientation: "vertical",
@@ -95,7 +95,7 @@ window.SITE = {
   {
     title: "Marketing Agency — Brand Promo",
     category: "Reels & Short-Form",
-    thumbnail: "assets/covers/brand-promo-cover.jpg",
+    thumbnail: "assets/covers/atriq-agency-promo.jpg",
     videoUrl: "https://www.instagram.com/p/Ddlr9RwCCrF/",
     videoType: "instagram",
     orientation: "vertical",
