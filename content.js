@@ -41,8 +41,8 @@ window.SITE = {
     {
       title: "Albert Einstein Motion Graphic — Reel",
       category: "Reels & Short-Form",
-      thumbnail: "assets/covers/einstein-cover.jpg", // حطي صورة الغلاف هنا لما تجهزيها، أو سيبيها "" لو مش عايزة
-      videoUrl: "assets/videos/einstein-reel.mp4",
+      thumbnail: "assets/covers/einstein-cover.jpg",
+      videoUrl: "assets/videos/0915_2.mp4",
       videoType: "mp4",
       orientation: "vertical",
       duration: "0:08",
@@ -61,8 +61,7 @@ window.SITE = {
       category: "Reels & Short-Form",
       thumbnail: "assets/covers/salary-explainer.jpg",
       videoUrl: "https://drive.google.com/file/d/1VjIntR4TTo6EoQyRpaSyhLvbAQ6lnzhr/view?usp=drive_link",
-      videoType: "drive",
-      orientation: "vertical",
+      videoType: "vertical",
       duration: "1:23",
     },
     {
@@ -104,8 +103,8 @@ window.SITE = {
     {
       title: "Dental Clinic — Wedding Prep & Teeth Whitening Ad",
       category: "Ads & Commercials",
-      thumbnail: "assets/covers/teeth-cover.jpg", // حطي صورة الغلاف هنا لما تجهزيها، أو سيبيها ""
-      videoUrl: "assets/videos/teeth-whitening.mp4",
+      thumbnail: "assets/covers/teeth-cover.jpg",
+      videoUrl: "assets/videos/reel 5 (1)_2.mp4",
       videoType: "mp4",
       orientation: "vertical",
       duration: "0:21",
