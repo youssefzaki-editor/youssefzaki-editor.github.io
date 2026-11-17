@@ -154,7 +154,6 @@ svg { width: 1em; height: 1em; }
     radial-gradient(35% 30% at 12% 70%, rgba(34, 211, 238, 0.06), transparent 100%);
 }
 .hero__glow::after {
-  /* faint grid, like a viewer's safe-area overlay */
   content: ""; position: absolute; inset: 0;
   background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
   background-size: 72px 72px;
@@ -215,7 +214,6 @@ svg { width: 1em; height: 1em; }
   filter: contrast(1.05) saturate(1.02);
 }
 .portrait__frame::after {
-  /* gentle cinematic vignette over the photo */
   content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
   background: radial-gradient(circle at 50% 40%, transparent 55%, rgba(0, 0, 0, 0.35));
 }
@@ -441,14 +439,12 @@ svg { width: 1em; height: 1em; }
 .modal__close:hover { background: var(--accent); border-color: var(--accent); transform: rotate(90deg); }
 .modal__close svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 
-/* Player box: sized from the viewport so it always fits on screen. */
 .modal__player {
   position: relative; overflow: hidden; border-radius: var(--radius);
   background: #000; border: 1px solid var(--line-strong);
   box-shadow: 0 40px 120px -30px var(--accent-glow);
 }
 .modal__player.is-vertical {
-  /* fit 9:16 into the available space */
   height: min(calc(100svh - 150px), calc((100vw - 32px) * 16 / 9));
   aspect-ratio: 9 / 16;
 }
@@ -457,7 +453,6 @@ svg { width: 1em; height: 1em; }
   aspect-ratio: 16 / 9;
 }
 .modal__player.is-instagram {
-  /* Instagram's embed adds a header and caption around the video */
   height: min(calc(100svh - 150px), 760px);
   width: min(calc(100vw - 32px), 420px);
   aspect-ratio: auto;
