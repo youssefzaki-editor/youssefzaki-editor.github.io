@@ -268,8 +268,8 @@
     modal.classList.remove("is-open");
     // Removing the iframe/video stops playback immediately.
     $$("iframe, video", player).forEach((n) => {
-      if (n.tagName === "VIDEO") n.pause();
-      n.src = "about:blank";
+      if (n.tagName === "VIDEO") { n.pause(); n.removeAttribute("src"); n.load(); }
+      else n.src = "about:blank";
       n.remove();
     });
     document.body.classList.remove("is-locked");

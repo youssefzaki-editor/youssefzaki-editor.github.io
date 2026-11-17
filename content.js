@@ -44,7 +44,7 @@ window.SITE = {
     thumbnail: "assets/covers/einstein-cover.jpg",
     videoUrl: "assets/videos/0915.mp4",
     videoType: "mp4",
-    orientation: "vertical",
+    orientation: "horizontal",
     duration: "0:08",
   },
   {

@@ -277,7 +277,9 @@ svg { width: 1em; height: 1em; }
   border: 1px solid var(--line);
   transition: border-color var(--t), box-shadow var(--t), transform var(--t);
 }
-.card--horizontal .card__media { aspect-ratio: 16 / 9; }
+/* All cards share the 9:16 shape so the grid stays even; horizontal videos
+   still open in a 16:9 player. Give them a 720x1280 cover. */
+.card--horizontal .card__media { aspect-ratio: 9 / 16; }
 .card__media img {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
   transition: transform 0.8s var(--ease), filter var(--t);
