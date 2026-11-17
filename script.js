@@ -15,7 +15,6 @@
     const value = SITE[el.dataset.bind];
     if (value) el.textContent = value;
   });
-  if (SITE.name && SITE.role) document.title = `${SITE.name} — ${SITE.role}`;
   $("#availability").hidden = !SITE.available;
   $("#year").textContent = new Date().getFullYear();
 
