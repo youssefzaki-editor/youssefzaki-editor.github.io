@@ -1,62 +1,42 @@
 /* =====================================================================
    SITE CONTENT — edit this file to update the website.
-   You never need to touch index.html, style.css or script.js for
-   everyday changes (name, contact details, videos, skills, tools).
    ===================================================================== */
 
 window.SITE = {
-  /* ---------- Personal info ---------- */
   name: "Youssef Zaki",
   role: "Video Editor",
   headline: "Turning raw footage into stories that connect.",
   intro:
     "I turn raw footage into engaging visual stories that capture attention, communicate ideas, and help brands stand out.",
 
-  // Shows the "Available for projects" pill in the hero. Set to false to hide it.
   available: true,
 
-  // Profile photos (in the assets folder).
-  // photo      – square crop, shown in the round frame at the top of the page.
-  //              Leave it empty ("") to show your initials instead.
-  // aboutPhoto – taller 4:5 crop, shown in the About section. "" hides it.
   photo: "assets/profile.jpg",
   aboutPhoto: "assets/profile-portrait.jpg",
 
   about:
     "I'm a video editor passionate about transforming raw footage into polished, engaging content. I focus on storytelling, pacing, sound design, color, and visual consistency to create videos that communicate clearly and keep audiences engaged.",
 
-  /* ---------- Contact ---------- */
   email: "youssefzakil4040@gmail.com",
-  phoneDisplay: "+20 120 359 9201", // how the number looks on the page
-  phoneLink: "+201203599201",       // digits only, with country code (used for tel: and WhatsApp)
+  phoneDisplay: "+20 120 359 9201",
+  phoneLink: "+201203599201",
   whatsappMessage: "Hi Youssef, I saw your portfolio and I have a project in mind.",
 
-  /* ---------- Skills (shown in "Skills & Expertise") ----------
-     icon options: audio, color, motion, captions, ads, story, brand          */
   skills: [
-    { name: "Audio Editing & Sound Design", icon: "audio",
-      text: "Clean dialogue, balanced music and sound effects that support the cut." },
-    { name: "Color Correction & Color Grading", icon: "color",
-      text: "Consistent color from shot to shot, with a look that fits the mood." },
-    { name: "Motion Graphics & Visual Effects", icon: "motion",
-      text: "Titles, transitions and effects that add energy without distracting." },
-    { name: "Animated Captions & Typography", icon: "captions",
-      text: "Readable, on-brand captions that keep viewers watching." },
-    { name: "Ad Creative Editing", icon: "ads",
-      text: "Short, focused edits built around a strong hook and a clear message." },
-    { name: "Storytelling & Visual Narrative", icon: "story",
-      text: "Structure and pacing that give every video a clear flow." },
-    { name: "Brand Consistency & Visual Identity", icon: "brand",
-      text: "Fonts, colors and style kept in line with the brand." },
+    { name: "Audio Editing & Sound Design", icon: "audio", text: "Clean dialogue, balanced music and sound effects that support the cut." },
+    { name: "Color Correction & Color Grading", icon: "color", text: "Consistent color from shot to shot, with a look that fits the mood." },
+    { name: "Motion Graphics & Visual Effects", icon: "motion", text: "Titles, transitions and effects that add energy without distracting." },
+    { name: "Animated Captions & Typography", icon: "captions", text: "Readable, on-brand captions that keep viewers watching." },
+    { name: "Ad Creative Editing", icon: "ads", text: "Short, focused edits built around a strong hook and a clear message." },
+    { name: "Storytelling & Visual Narrative", icon: "story", text: "Structure and pacing that give every video a clear flow." },
+    { name: "Brand Consistency & Visual Identity", icon: "brand", text: "Fonts, colors and style kept in line with the brand." },
   ],
 
-  /* ---------- Tools & Software ---------- */
   tools: [
     { name: "Adobe Premiere Pro", short: "Pr" },
     { name: "CapCut Pro", short: "Cc" },
   ],
 
-  /* ---------- Portfolio videos ---------- */
   videos: [
     {
       title: "Albert Einstein Motion Graphic — Reel",
@@ -125,7 +105,7 @@ window.SITE = {
       title: "Dental Clinic — Wedding Prep & Teeth Whitening Ad",
       category: "Ads & Commercials",
       thumbnail: "",
-      videoUrl: "assets/videos/wedding-teeth-whitening.mp4",
+      videoUrl: "assets/videos/teeth-whitening.mp4",
       videoType: "mp4",
       orientation: "vertical",
       duration: "0:21",
