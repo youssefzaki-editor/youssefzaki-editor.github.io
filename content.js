@@ -56,28 +56,17 @@ window.SITE = {
     { name: "CapCut Pro", short: "Cc" },
   ],
 
-  /* ---------- Portfolio videos ----------
-     HOW TO ADD A VIDEO: copy one { ... } block, paste it into the list,
-     and change the values. HOW TO REMOVE: delete its whole { ... } block.
-     The order here is the order on the page.
-
-     title      – shown on the card
-     category   – used by the filter buttons. Buttons are created
-                  automatically from the categories you use here.
-     thumbnail  – cover image (put it in assets/covers/). Portrait 9:16 works
-                  best (720×1280). If it's missing, a styled placeholder is shown.
-     videoUrl   – paste the normal share link:
-                    Google Drive: https://drive.google.com/file/d/FILE_ID/view
-                    Instagram:    https://www.instagram.com/p/POST_ID/  (or /reel/)
-                    YouTube:      https://www.youtube.com/watch?v=VIDEO_ID
-                    Local file:   assets/videos/my-video.mp4
-     videoType  – "drive", "instagram", "youtube" or "mp4"
-     orientation– "vertical" (9:16 reels) or "horizontal" (16:9)
-     duration   – optional label, e.g. "0:41"
-
-     Google Drive files must be shared as "Anyone with the link → Viewer",
-     otherwise the player shows a sign-in / access screen.               */
+  /* ---------- Portfolio videos ---------- */
   videos: [
+    {
+      title: "Albert Einstein Motion Graphic — Reel",
+      category: "Reels & Short-Form",
+      thumbnail: "",
+      videoUrl: "https://www.facebook.com/reel/1834097377669989",
+      videoType: "instagram",
+      orientation: "vertical",
+      duration: "0:08",
+    },
     {
       title: "Business Talk — Talking-Head Reel",
       category: "Reels & Short-Form",
@@ -129,6 +118,15 @@ window.SITE = {
       thumbnail: "assets/covers/atriq-agency-promo.jpg",
       videoUrl: "https://www.instagram.com/p/Ddlr9RwCCrF/",
       videoType: "instagram",
+      orientation: "vertical",
+      duration: "0:21",
+    },
+    {
+      title: "Dental Clinic — Wedding Prep & Teeth Whitening Ad",
+      category: "Ads & Commercials",
+      thumbnail: "",
+      videoUrl: "assets/videos/wedding-teeth-whitening.mp4",
+      videoType: "mp4",
       orientation: "vertical",
       duration: "0:21",
     },
