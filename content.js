@@ -41,9 +41,9 @@ window.SITE = {
     {
       title: "Albert Einstein Motion Graphic — Reel",
       category: "Reels & Short-Form",
-      thumbnail: "",
-      videoUrl: "https://www.facebook.com/reel/1834097377669989",
-      videoType: "instagram",
+      thumbnail: "assets/covers/einstein-cover.jpg", // حطي صورة الغلاف هنا لما تجهزيها، أو سيبيها "" لو مش عايزة
+      videoUrl: "assets/videos/einstein-reel.mp4",
+      videoType: "mp4",
       orientation: "vertical",
       duration: "0:08",
     },
@@ -104,7 +104,7 @@ window.SITE = {
     {
       title: "Dental Clinic — Wedding Prep & Teeth Whitening Ad",
       category: "Ads & Commercials",
-      thumbnail: "",
+      thumbnail: "assets/covers/teeth-cover.jpg", // حطي صورة الغلاف هنا لما تجهزيها، أو سيبيها ""
       videoUrl: "assets/videos/teeth-whitening.mp4",
       videoType: "mp4",
       orientation: "vertical",
