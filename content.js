@@ -39,6 +39,15 @@ window.SITE = {
 
  videos: [
   {
+    title: "Engineer Interview — Talking-Head Reel",
+    category: "Reels & Short-Form",
+    thumbnail: "assets/covers/engineer-interview-reel.jpg",
+    videoUrl: "https://www.facebook.com/reel/1469380058654327",
+    videoType: "facebook",
+    orientation: "vertical",
+    duration: "0:25",
+  },
+  {
     title: "Albert Einstein Motion Graphic — Reel",
     category: "Reels & Short-Form",
     thumbnail: "assets/covers/einstein-cover.jpg",

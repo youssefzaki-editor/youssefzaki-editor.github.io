@@ -104,7 +104,7 @@
     </li>`).join("");
 
   /* ---------- Video helpers ---------- */
-  const PLATFORM = { drive: "Google Drive", instagram: "Instagram", youtube: "YouTube", mp4: "Video" };
+  const PLATFORM = { drive: "Google Drive", instagram: "Instagram", facebook: "Facebook", youtube: "YouTube", mp4: "Video" };
 
   function driveId(url) {
     const m = url.match(/\/file\/d\/([\w-]+)/) || url.match(/[?&]id=([\w-]+)/);
@@ -113,6 +113,11 @@
   function instagramPath(url) {
     const m = url.match(/instagram\.com\/(p|reel|tv)\/([\w-]+)/);
     return m ? `${m[1]}/${m[2]}` : null;
+  }
+  function facebookUrl(url) {
+    const m = url.match(/facebook\.com\/(?:reel\/|watch\/?\?v=|.*\/videos\/)(\d+)/) || url.match(/fb\.watch\/[\w-]+/);
+    if (!m) return null;
+    return m[1] ? `https://www.facebook.com/reel/${m[1]}` : url;
   }
   function youtubeId(url) {
     const m = url.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);
@@ -134,6 +139,12 @@
         const p = instagramPath(url);
         return p
           ? { embed: `https://www.instagram.com/${p}/embed/`, open: url }
+          : { embed: null, open: url };
+      }
+      case "facebook": {
+        const href = facebookUrl(url);
+        return href
+          ? { embed: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(href)}&show_text=false&autoplay=true`, open: url }
           : { embed: null, open: url };
       }
       case "youtube": {
